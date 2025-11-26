@@ -1,4 +1,4 @@
-From flask import Flask
+from flask import Flask
 import random
 
 app = Flask(__name__)
@@ -25,4 +25,5 @@ def ana_sayfa():
     """
 
 if __name__ == "__main__":
+
     app.run(debug=True)
